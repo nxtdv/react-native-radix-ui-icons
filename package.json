@@ -10,6 +10,12 @@
     "radix-ui",
     "icons"
   ],
+  "license": "ISC",
+  "homepage": "https://github.com/nxtdv/react-native-radix-ui-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nxtdv/react-native-radix-ui-icons"
+  },
   "private": false,
   "files": [
     "dist"
