@@ -1,6 +1,6 @@
 import React from 'react'
-import Svg, { Path, Rect } from 'react-native-svg'
-import { IconProps } from './types'
+import { Path, Svg } from 'react-native-svg'
+import { IconProps } from './types.js'
 
 const ValueIcon: React.FC<IconProps> = ({ width = 24, height = 24, color = 'black' }) => {
   return (

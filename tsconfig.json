@@ -1,17 +1,29 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "commonjs",
-    "jsx": "react",
-    "strict": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "lib": ["ESNext"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
+    "strictNullChecks": true,
     "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
     "declaration": true,
-    "outDir": "./dist"
+    "removeComments": false,
+    "types": ["react", "react-native"],
+    "outDir": "./dist",
+    "jsx": "react"
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["node_modules"]
+  "ts-node": {
+    "swc": true
+  }
 }

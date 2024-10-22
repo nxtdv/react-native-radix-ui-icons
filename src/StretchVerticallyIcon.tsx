@@ -1,5 +1,5 @@
 import React from 'react'
-import Svg, { Path, Rect } from 'react-native-svg'
+import { Path, Svg } from 'react-native-svg'
 import { IconProps } from './types'
 
 const StretchVerticallyIcon: React.FC<IconProps> = ({

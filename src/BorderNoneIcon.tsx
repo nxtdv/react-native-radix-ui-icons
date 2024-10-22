@@ -1,6 +1,6 @@
 import React from 'react'
-import Svg, { Rect } from 'react-native-svg'
-import { IconProps } from './types'
+import { Svg, Rect } from 'react-native-svg'
+import { IconProps } from './types.js'
 
 const BorderNoneIcon: React.FC<IconProps> = ({ width = 24, height = 24, color = 'black' }) => {
   return (

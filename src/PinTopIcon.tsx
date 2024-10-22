@@ -1,5 +1,5 @@
 import React from 'react'
-import Svg, { Path, Rect } from 'react-native-svg'
+import { Path, Svg } from 'react-native-svg'
 import { IconProps } from './types'
 
 const PinTopIcon: React.FC<IconProps> = ({ width = 24, height = 24, color = 'black' }) => {
